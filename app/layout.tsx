@@ -1,5 +1,4 @@
 import "./globals.css";
-import Script from "next/script";
 import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
 import { SITENAME } from "@/lib/constants";
@@ -22,7 +21,7 @@ export const metadata: Metadata = {
     },
     verification: {
         google: 'k7ddE8GTwf_pEscG85yp8VmG6oLKlPwK2247XnBF9Jc',
-        yandex: '9781ffa7655c366f',
+        yandex: 'c233d6c70d281357',
     },
 };
 
@@ -93,7 +92,6 @@ export default function RootLayout({
                     {children}
                 </ThemeProvider>
             </body>
-<Script src="https://js.juicyads.com/jp.php?c=947403z2v256s2x2w264x294&u=http%3A%2F%2Fwww.juicyads.rocks"/>
         </html>
     );
 }
