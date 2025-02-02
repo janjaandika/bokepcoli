@@ -2,4 +2,3 @@
 User-agent: *
 Disallow:
 Allow: /
-Sitemap: https://bokepcoli.pages.dev/sitemap.xml
